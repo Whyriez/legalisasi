@@ -45,7 +45,7 @@
                                     <td>{{ $value->jenis_dokumen }}
                                     </td>
                                     <td>{{ $value->pengambilan }}</td>
-                                    <td>Rp. {{ $value->jumlah_bayar }}</td>
+                                    <td>Rp. {{ number_format($value->jumlah_bayar) }}</td>
                                     <td class="text-center">
                                         <button type="button" data-toggle="modal"
                                             data-target="#exampleModal{{ $value->id }}"
@@ -172,7 +172,7 @@
 
                                                 <div class="form-group">
                                                     <label for="biaya">Biaya Legalisasi :</label>
-                                                    <h5>Rp. {{ $value->jumlah_bayar }}</h5>
+                                                    <h5>Rp. {{ number_format($value->jumlah_bayar) }}</h5>
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="textarea">Catatan :</label>
