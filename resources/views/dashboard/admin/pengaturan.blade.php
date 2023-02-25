@@ -1,5 +1,5 @@
 @extends('dashboard.layouts.home_layouts')
-@section('title', 'My Profile')
+@section('title', 'Pengaturan')
 @section('pengaturan', 'active')
 
 @section('content')

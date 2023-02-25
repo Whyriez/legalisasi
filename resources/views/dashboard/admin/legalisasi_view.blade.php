@@ -1,6 +1,5 @@
 @extends('dashboard.layouts.home_layouts')
-@section('title', 'Legalisasi')
-{{-- @section('data', 'active') --}}
+@section('title', 'Sudah Kirim Bukti')
 @section('ada', 'active')
 @section('open', 'menu-open')
 
